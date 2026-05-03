@@ -1,6 +1,6 @@
 {
   "name": "prabhat-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight, production-ready fetch utility with retry, timeout, and caching support.",
   "main": "src/index.js",
   "type": "commonjs",
@@ -17,7 +17,9 @@
   ],
   "author": "Prabhat Rana",
   "license": "MIT",
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "devDependencies": {
     "jest": "^29.0.0"
   }
