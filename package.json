@@ -17,6 +17,16 @@
   ],
   "author": "Prabhat Rana",
   "license": "MIT",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prabhatrana666/prabhat-kit.git"
+  },
+  "homepage": "https://github.com/prabhatrana666/prabhat-kit",
+  "bugs": {
+    "url": "https://github.com/prabhatrana666/prabhat-kit/issues"
+  },
+
   "files": [
     "src"
   ],
