@@ -1,0 +1,25 @@
+export const DEFAULT_CONFIG = {
+  RETRIES: 3,
+  TIMEOUT: 10000,
+  CACHE_TTL: 300000,
+  CIRCUIT_BREAKER: {
+    FAILURE_THRESHOLD: 5,
+    RESET_TIMEOUT: 60000,
+  }
+};
+
+export const HTTP_STATUS = {
+  OK: 200,
+  CREATED: 201,
+  BAD_REQUEST: 400,
+  NOT_FOUND: 404,
+  SERVER_ERROR: 500,
+};
+
+export const HTTP_METHODS = {
+  GET: 'GET',
+  POST: 'POST',
+  PUT: 'PUT',
+  DELETE: 'DELETE',
+  PATCH: 'PATCH'
+};

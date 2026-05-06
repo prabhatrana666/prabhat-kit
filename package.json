@@ -1,34 +1,54 @@
 {
-  "name": "prabhat-kit",
-  "version": "1.0.2",
-  "description": "A lightweight, production-ready fetch utility with retry, timeout, and caching support.",
+  "name": "prabhat-pack",
+  "version": "2.0.0",
+  "description": "Production-grade HTTP client for JavaScript with retry, caching, timeout, and circuit breaker support.",
+  "type": "module",
   "main": "src/index.js",
-  "type": "commonjs",
-  "scripts": {
-    "test": "jest"
+
+  "exports": {
+    ".": "./src/index.js"
   },
+
+  "scripts": {
+    "test": "node test-app/index.js",
+    "start": "node test-app/index.js"
+  },
+
   "keywords": [
+    "http-client",
     "fetch",
-    "http",
-    "api",
+    "api-client",
+    "nodejs",
+    "javascript",
     "retry",
+    "timeout",
+    "caching",
     "cache",
-    "utility"
+    "circuit-breaker",
+    "resilience",
+    "error-handling",
+    "performance",
+    "networking",
+    "axios-alternative"
   ],
+
   "author": "Prabhat Rana",
   "license": "MIT",
+
   "repository": {
     "type": "git",
-    "url": "https://github.com/prabhatrana666/prabhat-kit.git"
+    "url": "https://github.com/prabhatrana666/prabhat-pack.git"
   },
-  "homepage": "https://github.com/prabhatrana666/prabhat-kit",
+  "homepage": "https://github.com/prabhatrana666/prabhat-pack",
   "bugs": {
-    "url": "https://github.com/prabhatrana666/prabhat-kit/issues"
+    "url": "https://github.com/prabhatrana666/prabhat-pack/issues"
   },
+
+  "engines": {
+    "node": ">=16.0.0"
+  },
+
   "files": [
     "src"
-  ],
-  "devDependencies": {
-    "jest": "^29.0.0"
-  }
+  ]
 }

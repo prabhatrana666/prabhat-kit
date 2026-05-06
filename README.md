@@ -1,4 +1,12 @@
-# 🚀 prabhat-kit
+![npm version](https://img.shields.io/npm/v/prabhat-kit)
+![downloads](https://img.shields.io/npm/dw/prabhat-kit)
+![license](https://img.shields.io/npm/l/prabhat-kit)
+
+## 📸 Package Preview
+
+![NPM Preview](https://github.com/user-attachments/assets/037613af-ce5e-4b72-858e-e32fffb23c1c)
+
+# 🚀 prabhat-kit — Production-Grade HTTP Client
 
 > A lightweight, production-ready fetch utility with built-in retry, timeout, and caching support.
 
@@ -137,12 +145,40 @@ const data = await fetcher(url, {
 
 ---
 
+## 🏗️ Architecture
+
+```text
+Request
+   │
+   ▼
+Cache Manager ──────▶ Retry Strategy
+   │                      │
+   ▼                      ▼
+Circuit Breaker ─────▶ Fetch Execution
+   │                      │
+   ▼                      ▼
+Error Handler ◀────── Response
+```
+
+---
+
+## 🛠️ Development Setup
+
+```bash
+git clone https://github.com/prabhatrana666/prabhat-kit.git
+cd prabhat-pack
+npm install
+npm test
+```
+
+---
+
 ## 📌 Roadmap
 
-* [ ] TypeScript support
-* [ ] Request cancellation (AbortController)
-* [ ] Interceptors (like axios)
-* [ ] Advanced caching strategies
+*  TypeScript support
+*  Request cancellation (AbortController)
+*  Interceptors (like axios)
+*  Advanced caching strategies
 
 ---
 
@@ -152,6 +188,15 @@ Pull requests are welcome. For major changes, please open an issue first.
 
 ---
 
+🌟 Show Your Support
+
+If this package helped you, please give it a ⭐ on GitHub!
+
+---
+## 📊 Package Stats
+
+![NPM](https://nodei.co/npm/prabhat-kit.png)
+
 ## 📄 License
 
-MIT © Prabhat Rana
+MIT © Prabhat Rana 
