@@ -1,19 +1,16 @@
 {
   "name": "prabhat-pack",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Production-grade HTTP client for JavaScript with retry, caching, timeout, and circuit breaker support.",
   "type": "module",
   "main": "src/index.js",
-
   "exports": {
     ".": "./src/index.js"
   },
-
   "scripts": {
     "test": "node test-app/index.js",
     "start": "node test-app/index.js"
   },
-
   "keywords": [
     "http-client",
     "fetch",
@@ -31,10 +28,8 @@
     "networking",
     "axios-alternative"
   ],
-
   "author": "Prabhat Rana",
   "license": "MIT",
-
   "repository": {
     "type": "git",
     "url": "https://github.com/prabhatrana666/prabhat-pack.git"
@@ -43,11 +38,9 @@
   "bugs": {
     "url": "https://github.com/prabhatrana666/prabhat-pack/issues"
   },
-
   "engines": {
     "node": ">=16.0.0"
   },
-
   "files": [
     "src"
   ]
