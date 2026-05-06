@@ -1,5 +1,5 @@
 {
-  "name": "prabhat-pack",
+  "name": "prabhat-kit",
   "version": "2.0.1",
   "description": "Production-grade HTTP client for JavaScript with retry, caching, timeout, and circuit breaker support.",
   "type": "module",
