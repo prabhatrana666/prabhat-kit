@@ -162,6 +162,44 @@ Error Handler ◀────── Response
 
 ---
 
+## 📁 Project Structure
+
+```text
+prabhat-kit/
+├── src/
+│   ├── core/
+│   │   ├── Fetcher.js             # Main request engine
+│   │   ├── CacheManager.js        # In-memory caching layer
+│   │   ├── RetryStrategy.js       # Retry handling logic
+│   │   └── CircuitBreaker.js      # Failure protection system
+│   │
+│   ├── utils/
+│   │   ├── TimeoutHandler.js      # Request timeout control
+│   │   ├── ErrorNormalizer.js     # Standardized error formatting
+│   │   └── Logger.js              # Internal logging utility
+│   │
+│   ├── middleware/
+│   │   ├── RequestInterceptor.js  # Modify requests globally
+│   │   └── ResponseInterceptor.js # Handle responses globally
+│   │
+│   ├── types/
+│   │   └── constants.js           # Shared constants/config
+│   │
+│   └── index.js                   # Package entry point
+│
+├── test-app/
+│   ├── debug-setup.js             # Local debugging setup
+│   ├── index.js                   # Test entry file
+│   ├── simple-test.js             # Basic API tests
+│   └── verify.js                  # Validation utilities
+│
+├── tests/
+│   └── fetcher.test.js            # Automated test suite
+│
+├── package.json                   # Package metadata
+├── setup.js                       # Setup configuration
+└── README.md                      # Project documentation
+```
 ## 🛠️ Development Setup
 
 ```bash
